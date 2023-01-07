@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int z , product , counter ;
+    cout<< "enter a int number:";
+    cin>> z;
+    counter =1;
+    while (z>0){
+        product = z * counter;
+        cout<< "product is:" << product << endl;
+        if(z<0){
+            cout<< "the number is negative";
+        }
+        if(z<0){
+            break;
+        }
+
+    }
+return 0;
+}
